@@ -120,6 +120,7 @@ python3 run_sae_training.py \
     --sae_type topk \
     --epochs 200
 ```
+My Trained SAEs are available on HuggingFace: [abhishek-040010/sae-for-vlms](https://huggingface.co/abhishek-040010/sae-for-vlms)
 
 ### 3. Metric Computations & Concept Discovery
 Find demographic concept directions using Signed-MI or evaluate visual purity using MS-Score:
