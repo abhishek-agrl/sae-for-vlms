@@ -9,7 +9,7 @@ This repository contains the codebase and implementation for the Master's Thesis
 
 ---
 
-## 🔍 Thesis Abstract & Core Contributions
+## Thesis Abstract & Core Contributions
 
 Vision-Language Models (VLMs) like LLaVA-1.5-7B exhibit severe zero-shot demographic and occupational bias due to spurious correlations inherited from training datasets. Traditional debiasing methods rely on resource-intensive model fine-tuning or brittle prompt engineering.
 
@@ -34,7 +34,7 @@ This work proposes a **parameter-efficient, inference-time approach** to audit a
 
 ---
 
-## 📈 Key Quantitative Results
+## Key Quantitative Results
 
 ### 1. Structural Reconstruction Fidelity (ImageNet)
 Our Batch Top-K SAE implementation achieves higher explained variance ($R^2$) and lower Mean Squared Error (MSE) compared to traditional architectures, exceeding contemporary visual-modality baselines (e.g. Pach et al., 2025):
@@ -83,19 +83,19 @@ By minimizing the $J\text{-Score}$ representing cumulative absolute deviation fr
 
 ---
 
-## 📂 Modular Structure
+## Modular Structure
 
 The codebase is organized as follows:
-* **[src/config.py](file:///Users/abhishek/Developer/thesis/project/src/config.py)**: Central config loader and autoencoder hyperparameters.
-* **[src/models.py](file:///Users/abhishek/Developer/thesis/project/src/models.py)**: Loaders for the VLM (`load_vlm`) and SAE architectures (`load_sae`).
-* **[src/data.py](file:///Users/abhishek/Developer/thesis/project/src/data.py)**: Datasets handling lazy loading for HDF5 activations and `UTKFaceDataset` attribute extraction.
-* **[src/metrics.py](file:///Users/abhishek/Developer/thesis/project/src/metrics.py)**: Implementations for the Mono-Semanticity Score (`compute_ms_scores`) and Signed Mutual Information (`compute_signed_mutual_information`).
-* **[src/steering.py](file:///Users/abhishek/Developer/thesis/project/src/steering.py)**: Vectorized forward hook clamping steerer (`SAEHookSteerer`).
-* **[src/evaluation.py](file:///Users/abhishek/Developer/thesis/project/src/evaluation.py)**: Batched zero-shot VLM occupational bias evaluation loop.
+* **[src/config.py](src/config.py)**: Central config loader and autoencoder hyperparameters.
+* **[src/models.py](src/models.py)**: Loaders for the VLM (`load_vlm`) and SAE architectures (`load_sae`).
+* **[src/data.py](src/data.py)**: Datasets handling lazy loading for HDF5 activations and `UTKFaceDataset` attribute extraction.
+* **[src/metrics.py](src/metrics.py)**: Implementations for the Mono-Semanticity Score (`compute_ms_scores`) and Signed Mutual Information (`compute_signed_mutual_information`).
+* **[src/steering.py](src/steering.py)**: Vectorized forward hook clamping steerer (`SAEHookSteerer`).
+* **[src/evaluation.py](src/evaluation.py)**: Batched zero-shot VLM occupational bias evaluation loop.
 
 ---
 
-## 🚀 Usage Guide
+## Usage Guide
 
 ### 1. Extract Activations
 Extract random visual patch tokens or CLS tokens from specified encoder layers:
@@ -157,7 +157,7 @@ python3 run_steering_experiment.py \
 
 ---
 
-## 📜 Academic Citation
+## Academic Citation
 
 If you use this codebase or refer to the findings in the thesis, please cite:
 
