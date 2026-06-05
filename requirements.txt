@@ -2,6 +2,7 @@
 torch
 torchvision
 accelerate
+dictionary-learning
 
 # VLM and Transformers
 transformers
@@ -16,6 +17,3 @@ Pillow
 # Utilities
 tqdm
 optuna
-
-# Note: The dictionary_learning library is also required if training SAEs from scratch.
-# Install it from source if necessary.
