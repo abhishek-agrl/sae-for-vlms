@@ -7,6 +7,7 @@ This repository contains the codebase and implementation for my Master's Thesis:
 * **Second Examiner:** Prof. Dr. techn. Wolfgang Nejdl
 * **Date:** 11. May 2026
 
+Complete Thesis document available here: [SAE_for_VLMs.pdf](SAE_for_VLMs.pdf)
 ---
 
 ## Thesis Abstract & Core Contributions
