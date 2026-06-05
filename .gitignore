@@ -19,7 +19,6 @@ BatchTopK_L0_Distribution_*.png
 optuna_steering_results.csv
 results_baseline.csv
 global_best_trials.csv
-*.pdf
 layer_11/
 layer_17/
 layer_22/
