@@ -1,6 +1,6 @@
-# Sparse Autoencoders for Vision-Language Models (Master's Thesis)
+# Decoding Bias in Vision-Language Models using Sparse Autoencoders (Master's Thesis)
 
-This repository contains the codebase and implementation for the Master's Thesis: **"Sparse Autoencoders for Vision Language Models"** submitted at **Leibniz Universität Hannover** (Institute for Data Science / Forschungszentrum L3S).
+This repository contains the codebase and implementation for my Master's Thesis: **"Sparse Autoencoders for Vision Language Models"** submitted at **Leibniz Universität Hannover** (Institute for Data Science / Forschungszentrum L3S).
 
 * **Author:** Abhishek Agrawal
 * **Supervised By / First Examiner:** Dr. Sandipan Sikdar
