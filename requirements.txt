@@ -1,0 +1,21 @@
+# Deep Learning & ML Foundations
+torch
+torchvision
+accelerate
+
+# VLM and Transformers
+transformers
+huggingface-hub
+
+# Data Manipulation & Formats
+pandas
+numpy
+h5py
+Pillow
+
+# Utilities
+tqdm
+optuna
+
+# Note: The dictionary_learning library is also required if training SAEs from scratch.
+# Install it from source if necessary.

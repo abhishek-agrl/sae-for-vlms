@@ -1,0 +1,28 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+.env
+
+# Thesis/experiment data & outputs
+top_neurons_alpha_distribution.png
+BatchTopK_L0_Distribution_*.png
+optuna_steering_results.csv
+results_baseline.csv
+global_best_trials.csv
+*.pdf
+layer_11/
+layer_17/
+layer_22/
+result_steering_*/
+*.log
+*.out
